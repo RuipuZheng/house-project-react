@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import OAuth from "../components/OAuth";
-function Signup() {
+function ForgotPassword() {
   const [email, setEmail] = useState("");
 
   function onChange(e) {
@@ -64,4 +64,4 @@ function Signup() {
     </section>
   );
 }
-export default Signup;
+export default ForgotPassword;
