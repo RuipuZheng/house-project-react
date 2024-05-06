@@ -4,3 +4,10 @@
 body {
   background-color: rgb(241, 239, 239);
 }
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #a8dadc;
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #a8dadc !important;
+}
